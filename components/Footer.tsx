@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/utils/icon.png" 
+                src="/icon.png" 
                 alt="Revueon Logo" 
                 className="w-8 h-8 rounded-lg"
               />

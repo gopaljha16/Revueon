@@ -12,7 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between glass border border-white/20 dark:border-white/5 px-8 py-4 rounded-[2rem] shadow-2xl shadow-purple-500/5 transition-all">
         <div className="flex items-center gap-4">
           <img 
-            src="/utils/icon.png" 
+            src="/icon.png" 
             alt="Revueon Logo" 
             className="w-12 h-12 rounded-2xl cursor-pointer hover:rotate-12 transition-transform"
           />
