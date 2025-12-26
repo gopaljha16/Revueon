@@ -25,10 +25,15 @@ export const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 px-4">
-          <button className="w-full sm:w-auto px-8 md:px-12 py-5 md:py-7 bg-purple-600 hover:bg-purple-700 text-white rounded-[1.5rem] md:rounded-[2.5rem] font-black text-xl md:text-2xl flex items-center justify-center gap-3 md:gap-4 transition-all shadow-2xl shadow-purple-500/40 hover:scale-105 active:scale-95 group">
+          <a 
+            href="https://marketplace.visualstudio.com/items?itemName=RevueonLabs.revueon" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-8 md:px-12 py-5 md:py-7 bg-purple-600 hover:bg-purple-700 text-white rounded-[1.5rem] md:rounded-[2.5rem] font-black text-xl md:text-2xl flex items-center justify-center gap-3 md:gap-4 transition-all shadow-2xl shadow-purple-500/40 hover:scale-105 active:scale-95 group"
+          >
             Install Revueon
             <ArrowRight size={24} className="group-hover:translate-x-3 transition-transform duration-500" />
-          </button>
+          </a>
           <a href="#installation" className="w-full sm:w-auto px-8 md:px-12 py-5 md:py-7 bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white rounded-[1.5rem] md:rounded-[2.5rem] font-black text-xl md:text-2xl hover:border-purple-400 dark:hover:border-purple-600 transition-all flex items-center justify-center gap-3 md:gap-4 shadow-xl">
             <Terminal size={24} className="text-purple-500" />
             Quick Setup

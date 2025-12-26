@@ -33,7 +33,7 @@ export const Installation: React.FC = () => {
               <Step 
                 number="01"
                 title="Marketplace Install"
-                description="Search for 'Revueon' in VS Code Extensions or run 'code --install-extension revueon.ai'."
+                description="Search for 'Revueon' in VS Code Extensions or run 'code --install-extension RevueonLabs.revueon'."
                 icon={Download}
               />
               <Step 
@@ -55,10 +55,15 @@ export const Installation: React.FC = () => {
                 <p className="font-black text-xl md:text-2xl mb-1 md:mb-2 tracking-tight">Join the Aeon Era</p>
                 <p className="text-purple-100 font-medium text-sm md:text-base">Over 50k+ developers trust Revueon.</p>
               </div>
-              <button className="w-full md:w-auto bg-white text-purple-600 px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl font-black text-base md:text-lg flex items-center justify-center gap-3 hover:shadow-lg transition-all active:scale-95">
+              <a 
+                href="https://marketplace.visualstudio.com/items?itemName=RevueonLabs.revueon" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full md:w-auto bg-white text-purple-600 px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl font-black text-base md:text-lg flex items-center justify-center gap-3 hover:shadow-lg transition-all active:scale-95"
+              >
                 Install Extension
                 <ChevronRight size={20} />
-              </button>
+              </a>
             </div>
           </div>
 

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code2, Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -9,9 +9,11 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 mb-16">
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center text-white">
-                <Code2 size={20} />
-              </div>
+              <img 
+                src="/utils/icon.png" 
+                alt="Revueon Logo" 
+                className="w-8 h-8 rounded-lg"
+              />
               <span className="text-xl font-bold text-slate-900 dark:text-white">Revueon</span>
             </div>
             <p className="text-slate-600 dark:text-slate-400 mb-6 max-w-sm">
@@ -62,7 +64,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© 2024 Revueon AI. All rights reserved.</p>
+          <p>© 2025 Revueon AI. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <Mail size={16} />
             <span>hello@revueon.ai</span>
